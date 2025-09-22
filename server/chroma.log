@@ -1,0 +1,300 @@
+[33mWARNING[0m:  [17-09-2025 09:19:32] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [17-09-2025 09:19:34] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [17-09-2025 09:19:34] Starting component System
+[36mDEBUG[0m:    [17-09-2025 09:19:34] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [17-09-2025 09:19:34] Starting component SqliteDB
+[36mDEBUG[0m:    [17-09-2025 09:19:36] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [17-09-2025 09:19:36] Starting component Posthog
+[36mDEBUG[0m:    [17-09-2025 09:19:36] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [17-09-2025 09:19:36] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [17-09-2025 09:19:36] Starting component LocalExecutor
+[36mDEBUG[0m:    [17-09-2025 09:19:36] Starting component SegmentAPI
+[32mINFO[0m:     [17-09-2025 09:19:37] Started server process [[36m13608[0m]
+[32mINFO[0m:     [17-09-2025 09:19:37] Waiting for application startup.
+[32mINFO[0m:     [17-09-2025 09:19:37] Application startup complete.
+[32mINFO[0m:     [17-09-2025 09:19:37] Uvicorn running on [1mhttp://0.0.0.0:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [17-09-2025 11:08:17] 127.0.0.1:62900 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:08:17] 127.0.0.1:62902 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [17-09-2025 11:20:41] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [17-09-2025 11:20:43] 127.0.0.1:63830 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:20:43] 127.0.0.1:63837 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [17-09-2025 11:20:43] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [17-09-2025 11:20:44] 127.0.0.1:63830 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[33mWARNING[0m:  [17-09-2025 11:23:01] Number of requested results 4 is greater than number of elements in index 1, updating n_results = 1
+[32mINFO[0m:     [17-09-2025 11:23:01] 127.0.0.1:64027 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[33mWARNING[0m:  [17-09-2025 11:23:36] Number of requested results 4 is greater than number of elements in index 1, updating n_results = 1
+[32mINFO[0m:     [17-09-2025 11:23:36] 127.0.0.1:64070 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[33mWARNING[0m:  [17-09-2025 11:23:37] Number of requested results 4 is greater than number of elements in index 1, updating n_results = 1
+[32mINFO[0m:     [17-09-2025 11:23:37] 127.0.0.1:64070 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[33mWARNING[0m:  [17-09-2025 11:27:09] Number of requested results 4 is greater than number of elements in index 1, updating n_results = 1
+[32mINFO[0m:     [17-09-2025 11:27:09] 127.0.0.1:64247 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[33mWARNING[0m:  [17-09-2025 11:27:48] Number of requested results 4 is greater than number of elements in index 1, updating n_results = 1
+[32mINFO[0m:     [17-09-2025 11:27:48] 127.0.0.1:64287 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[36mDEBUG[0m:    [17-09-2025 11:29:03] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [17-09-2025 11:29:03] 127.0.0.1:64378 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:29:03] 127.0.0.1:64380 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:29:04] 127.0.0.1:64378 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:29:26] 127.0.0.1:64432 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:29:28] 127.0.0.1:64432 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[36mDEBUG[0m:    [17-09-2025 11:30:35] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [17-09-2025 11:30:35] 127.0.0.1:64558 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:30:35] 127.0.0.1:64560 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:30:35] 127.0.0.1:64558 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:32:55] 127.0.0.1:64707 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:33:22] 127.0.0.1:64750 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:33:53] 127.0.0.1:64780 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:34:46] 127.0.0.1:64830 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:34:59] 127.0.0.1:64845 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[36mDEBUG[0m:    [17-09-2025 11:36:51] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [17-09-2025 11:36:51] 127.0.0.1:65040 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:36:51] 127.0.0.1:65042 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:36:51] 127.0.0.1:65040 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [17-09-2025 11:40:27] Collection pdf-chat already exists, returning existing collection.
+[36mDEBUG[0m:    [17-09-2025 11:40:27] Collection pdf-chat already exists, returning existing collection.
+[36mDEBUG[0m:    [17-09-2025 11:40:27] Collection pdf-chat already exists, returning existing collection.
+[36mDEBUG[0m:    [17-09-2025 11:40:28] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [17-09-2025 11:40:28] 127.0.0.1:65409 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:40:28] 127.0.0.1:65413 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:40:28] 127.0.0.1:65408 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:40:28] 127.0.0.1:65411 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:40:28] 127.0.0.1:65418 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:40:29] 127.0.0.1:65409 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:40:29] 127.0.0.1:65413 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:40:29] 127.0.0.1:65408 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:40:29] 127.0.0.1:65411 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:40:29] 127.0.0.1:65413 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:40:29] 127.0.0.1:65409 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:40:29] 127.0.0.1:65418 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:40:31] 127.0.0.1:65408 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:40:31] 127.0.0.1:65408 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:40:31] 127.0.0.1:65409 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:40:31] 127.0.0.1:65408 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[36mDEBUG[0m:    [17-09-2025 11:40:44] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [17-09-2025 11:40:44] 127.0.0.1:65444 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:40:44] 127.0.0.1:65446 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:40:44] 127.0.0.1:65444 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:40:44] 127.0.0.1:65444 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[36mDEBUG[0m:    [17-09-2025 11:40:52] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [17-09-2025 11:40:52] 127.0.0.1:65457 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:40:53] 127.0.0.1:65459 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:40:53] 127.0.0.1:65457 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:40:53] 127.0.0.1:65457 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[36mDEBUG[0m:    [17-09-2025 11:41:15] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [17-09-2025 11:41:15] 127.0.0.1:65491 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:41:15] 127.0.0.1:65493 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:41:15] 127.0.0.1:65491 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:41:16] 127.0.0.1:65491 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[36mDEBUG[0m:    [17-09-2025 11:42:11] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [17-09-2025 11:42:11] 127.0.0.1:49229 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:42:11] 127.0.0.1:49231 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:42:12] 127.0.0.1:49229 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [17-09-2025 11:42:20] 127.0.0.1:49254 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[33mWARNING[0m:  [18-09-2025 09:09:50] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [18-09-2025 09:09:52] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [18-09-2025 09:09:52] Starting component System
+[36mDEBUG[0m:    [18-09-2025 09:09:52] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [18-09-2025 09:09:52] Starting component SqliteDB
+[36mDEBUG[0m:    [18-09-2025 09:09:54] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [18-09-2025 09:09:54] Starting component Posthog
+[36mDEBUG[0m:    [18-09-2025 09:09:54] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [18-09-2025 09:09:54] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [18-09-2025 09:09:54] Starting component LocalExecutor
+[36mDEBUG[0m:    [18-09-2025 09:09:54] Starting component SegmentAPI
+[32mINFO[0m:     [18-09-2025 09:09:55] Started server process [[36m9992[0m]
+[32mINFO[0m:     [18-09-2025 09:09:55] Waiting for application startup.
+[32mINFO[0m:     [18-09-2025 09:09:55] Application startup complete.
+[32mINFO[0m:     [18-09-2025 09:09:55] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[36mDEBUG[0m:    [18-09-2025 09:10:42] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [18-09-2025 09:10:42] ::1:62641 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 09:10:42] ::1:62643 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [18-09-2025 09:10:43] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [18-09-2025 09:10:43] ::1:62641 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 09:15:25] ::1:63110 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 09:16:42] Shutting down
+[32mINFO[0m:     [18-09-2025 09:16:42] Waiting for application shutdown.
+[36mDEBUG[0m:    [18-09-2025 09:16:42] Stopping component System
+[36mDEBUG[0m:    [18-09-2025 09:16:42] Stopping component SegmentAPI
+[36mDEBUG[0m:    [18-09-2025 09:16:42] Stopping component LocalExecutor
+[36mDEBUG[0m:    [18-09-2025 09:16:42] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [18-09-2025 09:16:42] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [18-09-2025 09:16:42] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [18-09-2025 09:16:42] Stopping component Posthog
+[36mDEBUG[0m:    [18-09-2025 09:16:42] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [18-09-2025 09:16:42] Stopping component SqliteDB
+[36mDEBUG[0m:    [18-09-2025 09:16:42] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [18-09-2025 09:16:42] Application shutdown complete.
+[32mINFO[0m:     [18-09-2025 09:16:42] Finished server process [[36m9992[0m]
+[33mWARNING[0m:  [18-09-2025 09:16:56] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [18-09-2025 09:16:57] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [18-09-2025 09:16:57] Starting component System
+[36mDEBUG[0m:    [18-09-2025 09:16:57] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [18-09-2025 09:16:57] Starting component SqliteDB
+[36mDEBUG[0m:    [18-09-2025 09:16:57] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [18-09-2025 09:16:57] Starting component Posthog
+[36mDEBUG[0m:    [18-09-2025 09:16:57] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [18-09-2025 09:16:57] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [18-09-2025 09:16:57] Starting component LocalExecutor
+[36mDEBUG[0m:    [18-09-2025 09:16:57] Starting component SegmentAPI
+[32mINFO[0m:     [18-09-2025 09:16:58] Started server process [[36m12996[0m]
+[32mINFO[0m:     [18-09-2025 09:16:58] Waiting for application startup.
+[32mINFO[0m:     [18-09-2025 09:16:58] Application startup complete.
+[32mINFO[0m:     [18-09-2025 09:16:58] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[36mDEBUG[0m:    [18-09-2025 09:17:47] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [18-09-2025 09:17:48] ::1:63359 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 09:17:48] ::1:63360 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [18-09-2025 09:17:48] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [18-09-2025 09:17:49] ::1:63359 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 10:54:32] Shutting down
+[32mINFO[0m:     [18-09-2025 10:54:32] Waiting for application shutdown.
+[36mDEBUG[0m:    [18-09-2025 10:54:32] Stopping component System
+[36mDEBUG[0m:    [18-09-2025 10:54:32] Stopping component SegmentAPI
+[36mDEBUG[0m:    [18-09-2025 10:54:32] Stopping component LocalExecutor
+[36mDEBUG[0m:    [18-09-2025 10:54:32] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [18-09-2025 10:54:32] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [18-09-2025 10:54:32] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [18-09-2025 10:54:32] Stopping component Posthog
+[36mDEBUG[0m:    [18-09-2025 10:54:32] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [18-09-2025 10:54:32] Stopping component SqliteDB
+[36mDEBUG[0m:    [18-09-2025 10:54:32] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [18-09-2025 10:54:32] Application shutdown complete.
+[32mINFO[0m:     [18-09-2025 10:54:32] Finished server process [[36m12996[0m]
+[33mWARNING[0m:  [18-09-2025 12:52:40] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [18-09-2025 12:52:41] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [18-09-2025 12:52:41] Starting component System
+[36mDEBUG[0m:    [18-09-2025 12:52:41] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [18-09-2025 12:52:41] Starting component SqliteDB
+[36mDEBUG[0m:    [18-09-2025 12:52:41] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [18-09-2025 12:52:41] Starting component Posthog
+[36mDEBUG[0m:    [18-09-2025 12:52:41] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [18-09-2025 12:52:41] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [18-09-2025 12:52:42] Starting component LocalExecutor
+[36mDEBUG[0m:    [18-09-2025 12:52:42] Starting component SegmentAPI
+[32mINFO[0m:     [18-09-2025 12:52:42] Started server process [[36m4236[0m]
+[32mINFO[0m:     [18-09-2025 12:52:42] Waiting for application startup.
+[32mINFO[0m:     [18-09-2025 12:52:42] Application startup complete.
+[32mINFO[0m:     [18-09-2025 12:52:42] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[36mDEBUG[0m:    [18-09-2025 13:22:47] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [18-09-2025 13:22:47] ::1:63017 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 13:22:47] ::1:63018 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [18-09-2025 13:22:47] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [18-09-2025 13:22:47] ::1:63017 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 13:22:57] ::1:63030 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[36mDEBUG[0m:    [18-09-2025 14:09:01] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [18-09-2025 14:09:01] ::1:53333 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 14:09:01] ::1:53334 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 14:09:01] ::1:53333 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 14:09:02] Backing off send_request(...) for 0.0s (requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+[32mINFO[0m:     [18-09-2025 14:11:43] ::1:53516 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 14:13:07] ::1:53591 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[36mDEBUG[0m:    [18-09-2025 14:14:57] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [18-09-2025 14:14:57] ::1:53784 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 14:14:57] ::1:53785 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 14:14:57] ::1:53784 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 14:15:10] ::1:53803 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[33mWARNING[0m:  [18-09-2025 14:21:51] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [18-09-2025 14:21:53] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [18-09-2025 14:21:53] Starting component System
+[36mDEBUG[0m:    [18-09-2025 14:21:53] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [18-09-2025 14:21:53] Starting component SqliteDB
+[36mDEBUG[0m:    [18-09-2025 14:21:53] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [18-09-2025 14:21:53] Starting component Posthog
+[36mDEBUG[0m:    [18-09-2025 14:21:53] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [18-09-2025 14:21:53] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [18-09-2025 14:21:53] Starting component LocalExecutor
+[36mDEBUG[0m:    [18-09-2025 14:21:53] Starting component SegmentAPI
+[32mINFO[0m:     [18-09-2025 14:21:56] Started server process [[36m13664[0m]
+[32mINFO[0m:     [18-09-2025 14:21:56] Waiting for application startup.
+[32mINFO[0m:     [18-09-2025 14:21:56] Application startup complete.
+[32mINFO[0m:     [18-09-2025 14:21:56] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[36mDEBUG[0m:    [18-09-2025 14:24:23] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [18-09-2025 14:24:23] ::1:54312 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 14:24:23] ::1:54313 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [18-09-2025 14:24:23] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [18-09-2025 14:24:24] ::1:54312 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 14:24:49] ::1:54333 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 14:25:00] ::1:54340 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[36mDEBUG[0m:    [18-09-2025 14:26:27] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [18-09-2025 14:26:27] ::1:54397 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 14:26:27] ::1:54398 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 14:26:28] ::1:54397 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 14:29:12] ::1:54523 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 14:29:16] ::1:54523 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 14:31:01] ::1:54587 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 14:32:20] ::1:54663 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[36mDEBUG[0m:    [18-09-2025 20:10:53] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [18-09-2025 20:10:53] ::1:61039 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 20:10:53] ::1:61040 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 20:10:53] ::1:61039 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 20:11:18] ::1:61058 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 20:11:18] ::1:61059 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 20:22:26] ::1:61695 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 20:24:17] ::1:61793 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 20:24:48] ::1:61815 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 20:26:14] ::1:61892 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 20:27:08] ::1:61980 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 20:27:27] ::1:61992 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 20:29:30] ::1:62100 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 20:31:10] ::1:62158 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 20:32:34] ::1:62266 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 20:32:47] ::1:62284 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 20:33:03] ::1:62308 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 20:53:18] ::1:63425 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 20:57:22] ::1:63643 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [18-09-2025 20:58:55] ::1:63715 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [19-09-2025 06:00:14] ::1:60481 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [19-09-2025 06:01:56] ::1:60554 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [19-09-2025 06:03:09] ::1:60615 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [19-09-2025 06:04:37] ::1:60682 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [19-09-2025 06:08:42] ::1:60865 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [19-09-2025 06:09:10] ::1:60924 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [19-09-2025 06:09:53] ::1:60988 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [19-09-2025 06:10:03] ::1:61026 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [19-09-2025 06:11:14] ::1:61158 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [19-09-2025 06:22:08] ::1:55524 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [19-09-2025 06:22:29] ::1:55533 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [19-09-2025 10:29:21] ::1:58065 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [19-09-2025 10:40:58] ::1:58872 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [19-09-2025 11:46:09] Shutting down
+[32mINFO[0m:     [19-09-2025 11:46:10] Waiting for application shutdown.
+[36mDEBUG[0m:    [19-09-2025 11:46:10] Stopping component System
+[36mDEBUG[0m:    [19-09-2025 11:46:10] Stopping component SegmentAPI
+[36mDEBUG[0m:    [19-09-2025 11:46:10] Stopping component LocalExecutor
+[36mDEBUG[0m:    [19-09-2025 11:46:10] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [19-09-2025 11:46:10] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [19-09-2025 11:46:10] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [19-09-2025 11:46:10] Stopping component Posthog
+[36mDEBUG[0m:    [19-09-2025 11:46:10] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [19-09-2025 11:46:10] Stopping component SqliteDB
+[36mDEBUG[0m:    [19-09-2025 11:46:10] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [19-09-2025 11:46:10] Application shutdown complete.
+[32mINFO[0m:     [19-09-2025 11:46:10] Finished server process [[36m13664[0m]
+[33mWARNING[0m:  [22-09-2025 09:14:10] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [22-09-2025 09:14:14] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [22-09-2025 09:14:14] Starting component System
+[36mDEBUG[0m:    [22-09-2025 09:14:14] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [22-09-2025 09:14:14] Starting component SqliteDB
+[36mDEBUG[0m:    [22-09-2025 09:14:16] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [22-09-2025 09:14:16] Starting component Posthog
+[36mDEBUG[0m:    [22-09-2025 09:14:16] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [22-09-2025 09:14:16] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [22-09-2025 09:14:16] Starting component LocalExecutor
+[36mDEBUG[0m:    [22-09-2025 09:14:16] Starting component SegmentAPI
+[32mINFO[0m:     [22-09-2025 09:14:18] Started server process [[36m5892[0m]
+[32mINFO[0m:     [22-09-2025 09:14:18] Waiting for application startup.
+[32mINFO[0m:     [22-09-2025 09:14:18] Application startup complete.
+[32mINFO[0m:     [22-09-2025 09:14:18] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[36mDEBUG[0m:    [22-09-2025 09:28:40] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [22-09-2025 09:28:40] ::1:58383 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 09:28:40] ::1:58384 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [22-09-2025 09:28:40] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [22-09-2025 09:28:41] ::1:58383 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 09:28:48] ::1:58391 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 09:31:35] ::1:58466 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 09:36:34] ::1:58582 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 10:49:03] ::1:60524 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 10:50:58] ::1:60599 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 10:51:00] ::1:60599 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 10:51:23] ::1:60610 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 10:57:21] ::1:60812 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 10:57:35] ::1:60819 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 11:01:20] ::1:61086 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
