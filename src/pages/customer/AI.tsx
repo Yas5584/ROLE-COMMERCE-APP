@@ -1,13 +1,15 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import App from "../Assistant/assistant"
-const AI = () => {
-    const {id}=useParams();
+
+
+const AI:React.FC = () => {
+    const {id}=useParams<{ id: string }>();
   return (
     <div>
-        <h1>hello from Pages {id}</h1>
+       
 
-    <App />
+    <App style={{color:'white'}} readid={id} />
       
     </div>
   )

@@ -90,48 +90,6 @@ const ragChain = await createRetrievalChain({
   retriever: historyAwareRetriever,
   combineDocsChain: questionAnswerChain,
 });
-  
-
-
-
-
-
-
-
-
-
-
-
-  
-
-// // Define the function that calls the model
-//  const callModel = async (state) => {
-//       // state.input comes from app.invoke({ input: query })
-//       const response = await chain.invoke({ question: state.input });
-//       return { messages: response }; 
-//     };
-
-//     // 7. Define workflow
-//     const workflow = new StateGraph(MessagesAnnotation)
-//       .addNode("model", callModel)
-//       .addEdge(START, "model")
-//       .addEdge("model", END);
-
-//     // 8. Add memory
-//     const memory = new MemorySaver();
-//     const app = workflow.compile({ checkpointer: memory });
-
-//     const config = { configurable: { thread_id: 1 } };
-
-//     // 9. Run workflow
-//     const result = await app.invoke({ input: query }, config);
-
-//     return result;
-//   } catch (err) {
-//     console.error("❌ Error in askQuestion:", err);
-//     throw err;
-//   }
-// }
    
 // Define the State interface
 const GraphAnnotation = Annotation.Root({

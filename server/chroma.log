@@ -298,3 +298,415 @@
 [32mINFO[0m:     [22-09-2025 10:57:21] ::1:60812 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
 [32mINFO[0m:     [22-09-2025 10:57:35] ::1:60819 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
 [32mINFO[0m:     [22-09-2025 11:01:20] ::1:61086 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 14:51:42] ::1:49716 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 14:51:44] ::1:49716 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 14:52:13] ::1:49734 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[36mDEBUG[0m:    [22-09-2025 15:01:33] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [22-09-2025 15:01:33] ::1:50143 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 15:01:33] ::1:50144 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 15:01:33] ::1:50143 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 15:02:19] ::1:50176 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 15:02:21] ::1:50176 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 15:03:04] ::1:50203 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[36mDEBUG[0m:    [22-09-2025 16:10:24] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [22-09-2025 16:10:24] ::1:57085 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 16:10:25] ::1:57086 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 16:10:25] ::1:57085 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [22-09-2025 16:17:24] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [22-09-2025 16:17:24] ::1:57615 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 16:17:24] ::1:57616 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 16:17:25] ::1:57615 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [22-09-2025 16:20:55] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [22-09-2025 16:20:55] ::1:58031 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 16:20:55] ::1:58032 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [22-09-2025 16:20:55] ::1:58031 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[33mWARNING[0m:  [23-09-2025 06:40:05] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [23-09-2025 06:40:07] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [23-09-2025 06:40:07] Starting component System
+[36mDEBUG[0m:    [23-09-2025 06:40:07] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [23-09-2025 06:40:07] Starting component SqliteDB
+[36mDEBUG[0m:    [23-09-2025 06:40:07] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [23-09-2025 06:40:07] Starting component Posthog
+[36mDEBUG[0m:    [23-09-2025 06:40:07] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [23-09-2025 06:40:07] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [23-09-2025 06:40:07] Starting component LocalExecutor
+[36mDEBUG[0m:    [23-09-2025 06:40:07] Starting component SegmentAPI
+[32mINFO[0m:     [23-09-2025 06:40:08] Started server process [[36m13712[0m]
+[32mINFO[0m:     [23-09-2025 06:40:08] Waiting for application startup.
+[32mINFO[0m:     [23-09-2025 06:40:08] Application startup complete.
+[32mINFO[0m:     [23-09-2025 06:40:08] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[36mDEBUG[0m:    [23-09-2025 06:41:01] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 06:41:01] ::1:52178 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 06:41:01] ::1:52179 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 06:41:01] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [23-09-2025 06:41:02] ::1:52178 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 06:42:40] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 06:42:40] ::1:52351 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 06:42:40] ::1:52352 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 06:42:40] ::1:52351 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 06:44:08] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 06:44:10] ::1:52507 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 06:44:11] ::1:52520 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 06:44:12] ::1:52507 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 06:44:52] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 06:44:52] ::1:52624 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 06:44:52] ::1:52625 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 06:44:52] ::1:52624 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 06:46:01] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 06:46:01] ::1:52752 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 06:46:01] ::1:52753 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 06:46:01] ::1:52752 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 06:49:33] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 06:49:33] ::1:53060 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 06:49:33] ::1:53061 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 06:49:33] ::1:53060 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 07:10:49] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 07:10:49] ::1:54733 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:10:50] ::1:54734 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:10:50] ::1:54733 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 07:20:00] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 07:20:00] ::1:55479 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:20:00] ::1:55480 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:20:00] ::1:55479 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 07:21:25] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 07:21:25] ::1:55665 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:21:25] ::1:55666 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:21:25] ::1:55665 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 07:23:23] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 07:23:23] ::1:55889 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:23:23] ::1:55890 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:23:23] ::1:55889 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 07:26:16] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 07:26:16] ::1:56123 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:26:16] ::1:56124 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:26:16] ::1:56123 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 07:31:41] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 07:31:41] ::1:56383 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:31:41] ::1:56384 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:31:41] ::1:56383 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 07:33:25] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 07:33:25] ::1:56437 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:33:25] ::1:56438 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:33:25] ::1:56437 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 07:33:55] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 07:33:56] ::1:56474 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:33:56] ::1:56475 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:33:56] ::1:56474 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 07:34:36] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 07:34:36] ::1:56513 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:34:36] ::1:56514 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:34:36] ::1:56513 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 07:48:04] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 07:48:04] ::1:57045 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:48:04] ::1:57046 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:48:04] ::1:57045 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 07:53:04] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 07:53:04] ::1:57277 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:53:04] ::1:57279 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:53:04] ::1:57277 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 07:53:45] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 07:53:45] ::1:57350 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:53:45] ::1:57351 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:53:45] ::1:57350 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 07:54:21] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 07:54:21] ::1:57378 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:54:21] ::1:57379 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:54:21] ::1:57378 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 07:55:36] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 07:55:36] ::1:57529 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:55:37] ::1:57530 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:55:37] ::1:57529 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 07:56:53] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 07:56:53] ::1:57763 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:56:54] ::1:57764 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:56:54] ::1:57763 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 07:57:54] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 07:57:54] ::1:57872 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:57:54] ::1:57873 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 07:57:54] ::1:57872 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 08:04:02] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 08:04:02] ::1:58207 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 08:04:02] ::1:58208 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 08:04:02] ::1:58207 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 08:05:25] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 08:05:25] ::1:58236 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 08:05:25] ::1:58237 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 08:05:26] ::1:58236 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 08:06:38] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 08:06:39] ::1:58271 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 08:06:39] ::1:58272 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 08:06:39] ::1:58271 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 08:16:54] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 08:16:54] ::1:58559 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 08:16:54] ::1:58560 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 08:16:54] ::1:58559 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 08:39:43] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 08:39:43] ::1:59285 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 08:39:43] ::1:59287 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 08:39:43] ::1:59285 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 09:04:54] Collection pdf-chat already exists, returning existing collection.
+[36mDEBUG[0m:    [23-09-2025 09:04:54] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 09:04:54] ::1:60679 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 09:04:54] ::1:60680 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 09:04:54] ::1:60679 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 09:04:54] ::1:60681 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 09:04:54] ::1:60680 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 09:04:54] ::1:60681 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 09:05:05] ::1:60691 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 09:07:34] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 09:07:34] ::1:60787 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 09:07:34] ::1:60788 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 09:07:35] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 09:07:35] ::1:60787 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 09:07:35] ::1:60788 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 09:07:35] ::1:60787 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 09:07:35] ::1:60788 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 09:07:40] ::1:60793 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 09:08:02] ::1:60801 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 09:08:18] ::1:60815 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 09:18:29] Collection pdf-chat already exists, returning existing collection.
+[36mDEBUG[0m:    [23-09-2025 09:18:29] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 09:18:29] ::1:61226 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 09:18:29] ::1:61227 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 09:18:29] ::1:61229 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 09:18:29] ::1:61226 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 09:18:29] ::1:61226 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 09:18:29] ::1:61227 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 09:18:45] ::1:61236 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:08:13] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 11:08:13] ::1:63206 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:08:13] ::1:63207 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:08:13] ::1:63206 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:08:17] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 11:08:17] ::1:63206 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:08:17] ::1:63207 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:08:17] ::1:63206 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:08:34] ::1:63227 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:08:35] ::1:63227 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:10:44] ::1:63288 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:11:47] Collection pdf-chat already exists, returning existing collection.
+[36mDEBUG[0m:    [23-09-2025 11:11:47] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 11:11:47] ::1:63352 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:11:47] ::1:63351 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:11:47] ::1:63351 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:11:47] ::1:63354 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:11:48] ::1:63352 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:11:48] ::1:63351 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:16:52] Collection pdf-chat already exists, returning existing collection.
+[36mDEBUG[0m:    [23-09-2025 11:16:52] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 11:16:52] ::1:63752 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:16:52] ::1:63753 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:16:52] ::1:63752 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:16:52] ::1:63754 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:16:52] ::1:63753 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:19:08] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 11:19:09] ::1:63804 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:19:09] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 11:19:09] ::1:63806 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:19:09] ::1:63805 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:19:09] ::1:63806 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:19:09] ::1:63804 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:19:46] Collection pdf-chat already exists, returning existing collection.
+[36mDEBUG[0m:    [23-09-2025 11:19:46] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 11:19:46] ::1:63837 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:19:46] ::1:63838 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:19:46] ::1:63837 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:19:46] ::1:63839 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:19:46] ::1:63838 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:19:46] ::1:63837 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:25:20] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 11:25:20] ::1:64110 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:25:20] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 11:25:20] ::1:64112 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:25:20] ::1:64111 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:25:20] ::1:64112 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:25:20] ::1:64110 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:25:21] ::1:64111 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:25:41] ::1:64128 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:25:43] ::1:64128 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:28:11] Collection pdf-chat already exists, returning existing collection.
+[36mDEBUG[0m:    [23-09-2025 11:28:11] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 11:28:12] ::1:64232 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:28:12] ::1:64233 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:28:12] ::1:64232 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:28:12] ::1:64235 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:28:12] ::1:64233 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:28:12] ::1:64232 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:28:29] ::1:64254 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/query HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:29:58] Collection pdf-chat already exists, returning existing collection.
+[36mDEBUG[0m:    [23-09-2025 11:29:59] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 11:29:59] ::1:64379 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:29:59] ::1:64381 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:29:59] ::1:64380 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:29:59] ::1:64381 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:29:59] ::1:64379 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:29:59] ::1:64380 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a71f6a56-c049-4e28-84fa-91306c66fba7/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:32:04] Collection pdf-chat already exists, returning existing collection.
+[36mDEBUG[0m:    [23-09-2025 11:32:04] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 11:32:04] ::1:64493 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:32:04] ::1:64494 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:32:53] Collection pdf-chat already exists, returning existing collection.
+[36mDEBUG[0m:    [23-09-2025 11:32:53] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 11:32:53] ::1:64514 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:32:53] ::1:64515 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:33:14] Collection pdf-chat already exists, returning existing collection.
+[36mDEBUG[0m:    [23-09-2025 11:33:14] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 11:33:14] ::1:64541 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:33:14] ::1:64542 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:36:50] ::1:64647 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 400
+[32mINFO[0m:     [23-09-2025 11:36:50] ::1:64646 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:36:52] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 11:36:52] ::1:64646 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:36:52] ::1:64647 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:36:53] ::1:64646 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:36:53] ::1:64657 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:36:53] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [23-09-2025 11:36:53] ::1:64647 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/f20cded6-f5c5-439e-ade9-f1d33ab2cd60/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:36:53] ::1:64646 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/f20cded6-f5c5-439e-ade9-f1d33ab2cd60/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:37:01] ::1:64660 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/f20cded6-f5c5-439e-ade9-f1d33ab2cd60/query HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:37:50] ::1:64732 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:37:50] ::1:64733 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 400
+[36mDEBUG[0m:    [23-09-2025 11:37:52] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 11:37:52] ::1:64732 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:37:52] ::1:64733 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:37:52] ::1:64739 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:37:52] ::1:64732 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:37:52] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [23-09-2025 11:37:52] ::1:64733 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/1986a58d-86ab-4f3e-8aa3-a908410ef9cf/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:37:52] ::1:64739 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/1986a58d-86ab-4f3e-8aa3-a908410ef9cf/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:38:05] ::1:64751 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/1986a58d-86ab-4f3e-8aa3-a908410ef9cf/query HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:46:51] ::1:65311 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:46:51] ::1:65312 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 404
+[36mDEBUG[0m:    [23-09-2025 11:46:53] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 11:46:53] ::1:65311 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:46:53] ::1:65312 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:46:53] ::1:65317 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:46:53] ::1:65311 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:46:53] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [23-09-2025 11:46:54] ::1:65312 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/400cee5b-e6f0-4265-a9c2-3b0259fc7672/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:46:54] ::1:65317 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/400cee5b-e6f0-4265-a9c2-3b0259fc7672/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:47:19] ::1:65334 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/400cee5b-e6f0-4265-a9c2-3b0259fc7672/query HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:47:43] ::1:65344 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/400cee5b-e6f0-4265-a9c2-3b0259fc7672/query HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:47:44] ::1:65344 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/400cee5b-e6f0-4265-a9c2-3b0259fc7672/query HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:48:12] ::1:65356 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/400cee5b-e6f0-4265-a9c2-3b0259fc7672/query HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:48:35] ::1:65377 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:48:37] ::1:65377 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:48:37] ::1:65380 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:48:37] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [23-09-2025 11:48:37] ::1:65377 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/c50da692-d5f6-48f5-86d9-e78469661b7f/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:48:39] ::1:65380 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:49:00] ::1:65399 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:49:00] ::1:65400 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 400
+[36mDEBUG[0m:    [23-09-2025 11:49:02] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 11:49:02] ::1:65399 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:49:02] ::1:65400 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:49:02] ::1:65405 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:49:02] ::1:65399 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:49:02] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [23-09-2025 11:49:02] ::1:65405 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0550543b-ed63-4dec-9178-dcd1ff6547d1/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:49:02] ::1:65400 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0550543b-ed63-4dec-9178-dcd1ff6547d1/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:49:20] ::1:65421 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/0550543b-ed63-4dec-9178-dcd1ff6547d1/query HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:50:22] ::1:65515 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:50:22] ::1:65516 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 404
+[36mDEBUG[0m:    [23-09-2025 11:50:23] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 11:50:23] ::1:65515 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:50:23] ::1:65519 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:50:23] ::1:65516 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:50:23] ::1:65519 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:50:23] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [23-09-2025 11:50:23] ::1:65515 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a218423a-b0a2-4681-a05b-fb4d91659136/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:50:23] ::1:65516 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a218423a-b0a2-4681-a05b-fb4d91659136/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:56:45] ::1:49277 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:56:47] ::1:49277 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:56:47] ::1:49282 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:56:47] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [23-09-2025 11:56:48] ::1:49277 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/ccee43e6-4bba-47d1-afb4-d2ac4e690151/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:57:09] ::1:49301 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:57:09] ::1:49302 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 400
+[36mDEBUG[0m:    [23-09-2025 11:57:10] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 11:57:10] ::1:49301 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:57:10] ::1:49302 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:57:10] ::1:49301 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:57:10] ::1:49305 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:57:10] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [23-09-2025 11:57:11] ::1:49302 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/3cee8d32-e32a-43fb-bb1d-76f77eb0e62b/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:57:11] ::1:49305 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/3cee8d32-e32a-43fb-bb1d-76f77eb0e62b/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:57:25] ::1:49324 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/3cee8d32-e32a-43fb-bb1d-76f77eb0e62b/query HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:57:37] ::1:49342 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:57:38] ::1:49343 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 400
+[36mDEBUG[0m:    [23-09-2025 11:57:39] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 11:57:39] ::1:49342 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:57:39] ::1:49346 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:57:39] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [23-09-2025 11:57:39] ::1:49343 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:57:39] ::1:49342 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/6bc54110-cb84-4fdc-a68f-f0361f76533b/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:57:39] ::1:49346 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:57:40] ::1:49342 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/6bc54110-cb84-4fdc-a68f-f0361f76533b/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:57:54] ::1:49364 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:57:55] ::1:49364 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:57:55] ::1:49372 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:57:55] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [23-09-2025 11:57:56] ::1:49364 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/81f5a4c2-c0d6-46fe-9968-962ef9439b10/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:58:09] ::1:49384 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 404
+[32mINFO[0m:     [23-09-2025 11:58:09] ::1:49383 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:58:10] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 11:58:10] ::1:49383 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:58:10] ::1:49384 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:58:10] ::1:49387 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:58:10] ::1:49383 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:58:10] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [23-09-2025 11:58:10] ::1:49384 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/36422c4c-4f18-4e53-8bd6-a1f429941c35/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:58:10] ::1:49387 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/36422c4c-4f18-4e53-8bd6-a1f429941c35/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:58:21] ::1:49406 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:58:21] ::1:49407 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 400
+[36mDEBUG[0m:    [23-09-2025 11:58:22] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 11:58:22] ::1:49406 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:58:22] ::1:49407 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:58:22] ::1:49406 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:58:22] ::1:49410 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 11:58:23] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [23-09-2025 11:58:23] ::1:49410 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/f1e2ad35-9e22-4f4d-b1b8-0d20c3e8e794/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 11:58:23] ::1:49407 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/f1e2ad35-9e22-4f4d-b1b8-0d20c3e8e794/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:00:24] ::1:49516 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:00:25] ::1:49516 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:00:25] ::1:49519 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 12:00:25] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [23-09-2025 12:00:26] ::1:49516 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/a7844225-09ea-44ca-8c2e-2b9fce7adc3e/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:00:30] ::1:49530 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:00:35] ::1:49536 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:00:35] ::1:49537 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 12:00:35] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [23-09-2025 12:00:35] ::1:49536 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/517d0bde-84e3-43d1-9920-e4794a436ab7/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:00:59] ::1:49565 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 400
+[32mINFO[0m:     [23-09-2025 12:00:59] ::1:49564 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 12:01:00] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 12:01:00] ::1:49565 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:01:00] ::1:49564 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:01:00] ::1:49568 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:01:00] ::1:49565 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 12:01:00] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [23-09-2025 12:01:01] ::1:49564 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/debd8343-90b1-4912-83de-27daa97df266/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:01:01] ::1:49568 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/debd8343-90b1-4912-83de-27daa97df266/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:01:18] ::1:49583 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/debd8343-90b1-4912-83de-27daa97df266/query HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:12:21] ::1:49924 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:12:21] ::1:49925 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 400
+[32mINFO[0m:     [23-09-2025 12:12:26] ::1:49931 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:12:26] ::1:49932 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 12:12:26] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [23-09-2025 12:12:26] ::1:49931 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/50de0055-8a66-432a-90d6-68d91761616a/upsert HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 12:12:26] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 12:12:26] ::1:49931 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:12:26] ::1:49932 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:12:26] ::1:49931 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/50de0055-8a66-432a-90d6-68d91761616a/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:12:40] ::1:49946 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/50de0055-8a66-432a-90d6-68d91761616a/query HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:13:34] ::1:49978 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/50de0055-8a66-432a-90d6-68d91761616a/query HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:14:40] ::1:50085 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:14:40] ::1:50086 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 400
+[36mDEBUG[0m:    [23-09-2025 12:14:41] Collection pdf-chat already exists, returning existing collection.
+[32mINFO[0m:     [23-09-2025 12:14:42] ::1:50085 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:14:42] ::1:50086 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:14:42] ::1:50085 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:14:42] ::1:50089 - "GET /api/v2/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [23-09-2025 12:14:42] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [23-09-2025 12:14:43] ::1:50085 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/86c4021c-f27f-4495-a122-a85ab2efbdca/upsert HTTP/1.1" 200
+[32mINFO[0m:     [23-09-2025 12:14:43] ::1:50086 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/86c4021c-f27f-4495-a122-a85ab2efbdca/upsert HTTP/1.1" 200

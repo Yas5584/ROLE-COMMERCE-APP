@@ -6,7 +6,8 @@ import "./styles.css";
 import EmojiAvatar from "./avatar/Avatar.js";
 import { useSTT } from "./hooks/useSTT.js";
 import { useSharedSpeech } from "./hooks/useSharedSpeech.js";
-import { sendMessage } from "./api.jsx";
+import { sendMessage ,selectPDF} from "./api.jsx";
+
 
 // function topicFor(text="") {
 //   const s = text.toLowerCase();
@@ -38,7 +39,16 @@ import { sendMessage } from "./api.jsx";
 //   }
 // }
 
-export default function App() {
+
+
+
+
+export default function App(props) {
+
+ 
+  // console.log(id)
+
+
   const [messages, setMessages] = useState([
     { role: "assistant", text: "Hi! Ask me about Product" }
   ]);
@@ -58,6 +68,14 @@ export default function App() {
   useEffect(() => {
     if (lastAssistant) speech.speakText(lastAssistant);
   }, [lastAssistant]);
+
+  useEffect(() => {
+    if (props.readid) {
+      console.log(props.readid)
+      selectPDF(props.readid);
+      console.log("PDF sent:", props.readid);
+    }
+  }, [props.readid]);
 
   // const curTopic = topicFor(lastAssistant || "");
   // const videoSrc = videoFor(curTopic);
@@ -109,7 +127,7 @@ export default function App() {
             showOverlay={false}
           /> */}
           <div className="card" style={{ width:"100%", display:"grid", gap:8, placeItems:"center" }}>
-            {/* <EmojiAvatar open={speech.open} wave={firstWave} size={120} />    */}
+            <EmojiAvatar open={speech.open} wave={firstWave} size={120} />   
             <div className="tag">Emoji mirrors speech (lip‑sync + wave on first greet)</div>
           </div>
         </div>
@@ -147,5 +165,6 @@ export default function App() {
     </div>
   );
 }
+
 
 createRoot(document.getElementById("root")).render(<App/>);

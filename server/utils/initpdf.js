@@ -3,10 +3,13 @@ import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import { HuggingFaceInferenceEmbeddings } from "@langchain/community/embeddings/hf";
 import { saveVectorStore } from "./VectorStore.js";
 
+
+
+
+
 // Clean metadata for ChromaDB compatibility
 function cleanMetadata(metadata) {
   const cleaned = {};
-  
   for (const [key, value] of Object.entries(metadata)) {
     if (value === null || value === undefined) {
       continue;
@@ -25,16 +28,16 @@ function cleanMetadata(metadata) {
   return cleaned;
 }
 
-const FIXED_PDF_PATH = "data/docs1.pdf";
 
 
-export async function processPDF() {
+
+export async function processPDF(path) {
   try {
-//     console.log("Processing PDF:", filePath);
-  console.log("Loading  PDF:", FIXED_PDF_PATH);
+   
+  console.log("Loading  PDF:", path);
 
     
-    const loader = new PDFLoader(FIXED_PDF_PATH);
+    const loader = new PDFLoader(path);
     const docs = await loader.load();
     console.log(`Loaded ${docs.length} documents`);
 
@@ -62,8 +65,10 @@ export async function processPDF() {
       model: "sentence-transformers/all-MiniLM-L6-v2"
     });
 
+
     await saveVectorStore(cleanedChunks, embeddings);
     console.log("PDF processed successfully!");
+  
     
   } catch (error) {
     console.error("Error processing PDF:", error);
