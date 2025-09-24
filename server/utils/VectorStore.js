@@ -44,7 +44,7 @@ export async function getVectorStore() {
 export async function checkCollectionExists() {
   try {
     const embeddings = new HuggingFaceInferenceEmbeddings({
-      apiKey: "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",
+      apiKey: "",
       model: "sentence-transformers/all-MiniLM-L6-v2",
     });
 

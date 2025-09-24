@@ -61,7 +61,7 @@ export async function processPDF(path) {
     }));
 
     const embeddings = new HuggingFaceInferenceEmbeddings({
-      apiKey: "Your HuggingFace API key",
+      apiKey: "",
       model: "sentence-transformers/all-MiniLM-L6-v2"
     });
 

@@ -731,3 +731,7 @@
 [32mINFO[0m:     [24-09-2025 11:01:54] ::1:56400 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 400
 [32mINFO[0m:     [24-09-2025 11:02:41] ::1:56479 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 400
 [32mINFO[0m:     [24-09-2025 11:02:41] ::1:56480 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 400
+[32mINFO[0m:     [24-09-2025 11:12:23] ::1:58636 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 400
+[32mINFO[0m:     [24-09-2025 11:12:23] ::1:58637 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 400
+[32mINFO[0m:     [24-09-2025 11:15:13] ::1:59275 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 400
+[32mINFO[0m:     [24-09-2025 11:15:13] ::1:59276 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 400
