@@ -710,3 +710,24 @@
 [36mDEBUG[0m:    [23-09-2025 12:14:42] Starting component PersistentLocalHnswSegment
 [32mINFO[0m:     [23-09-2025 12:14:43] ::1:50085 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/86c4021c-f27f-4495-a122-a85ab2efbdca/upsert HTTP/1.1" 200
 [32mINFO[0m:     [23-09-2025 12:14:43] ::1:50086 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/86c4021c-f27f-4495-a122-a85ab2efbdca/upsert HTTP/1.1" 200
+[33mWARNING[0m:  [24-09-2025 10:59:29] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [24-09-2025 10:59:35] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [24-09-2025 10:59:35] Starting component System
+[36mDEBUG[0m:    [24-09-2025 10:59:36] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [24-09-2025 10:59:36] Starting component SqliteDB
+[36mDEBUG[0m:    [24-09-2025 10:59:38] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [24-09-2025 10:59:39] Starting component Posthog
+[36mDEBUG[0m:    [24-09-2025 10:59:39] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [24-09-2025 10:59:39] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [24-09-2025 10:59:39] Starting component LocalExecutor
+[36mDEBUG[0m:    [24-09-2025 10:59:40] Starting component SegmentAPI
+[32mINFO[0m:     [24-09-2025 10:59:48] Started server process [[36m17448[0m]
+[32mINFO[0m:     [24-09-2025 10:59:48] Waiting for application startup.
+[32mINFO[0m:     [24-09-2025 10:59:48] Application startup complete.
+[32mINFO[0m:     [24-09-2025 10:59:48] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [24-09-2025 11:01:20] ::1:56250 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 200
+[32mINFO[0m:     [24-09-2025 11:01:20] ::1:56251 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 404
+[32mINFO[0m:     [24-09-2025 11:01:54] ::1:56398 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 400
+[32mINFO[0m:     [24-09-2025 11:01:54] ::1:56400 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 400
+[32mINFO[0m:     [24-09-2025 11:02:41] ::1:56479 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 400
+[32mINFO[0m:     [24-09-2025 11:02:41] ::1:56480 - "DELETE /api/v2/tenants/default_tenant/databases/default_database/collections/pdf-chat HTTP/1.1" 400

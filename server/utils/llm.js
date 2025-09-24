@@ -32,7 +32,7 @@ export async function askQuestion(query) {
     const vectorStore = await getVectorStore();
     
     const llm = new ChatGroq({
-      apiKey: "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",
+      apiKey: "your Groq API Key",
       model: "llama-3.3-70b-versatile",
     });
 
